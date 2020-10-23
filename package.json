@@ -1,0 +1,19 @@
+{
+  "name": "regpassport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepak-joshi-au7/register_using_passport.git"
+  },
+  "author": "deepak-joshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepak-joshi-au7/register_using_passport/issues"
+  },
+  "homepage": "https://github.com/deepak-joshi-au7/register_using_passport#readme"
+}
