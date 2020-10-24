@@ -1,14 +1,10 @@
-const express = require("express");
-const bodyParser = require("body-parser");
-
+import express from "express";
 const app = express();
 
-app.use(bodyParser.json());
+import "dotenv/config";
 
-app.use(express.static());
+const Port = process.env.PORT || 3000;
 
-const port = process.env.PORT || 3000;
-
-app.listen(port, () => {
-  console.log(`Server listening to port ${port}`);
+app.listen(Port, () => {
+  console.log(`Server started at PORT ${Port}`);
 });
